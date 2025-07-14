@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Check</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <label for="location">
+      <input
+        type="text"
+        name="location"
+        id="location"
+        placeholder="search for a city"
+      />
+      <button id="locationBtn">Search</button>
+    </label>
+    <div id="loading" style="display: none">
+      <div class="spinner"></div>
+    </div>
+
+    <div id="locationContainer"></div>
+    <div id="firstLine"></div>
+    <div id="secondLine"></div>
+
+    <script src="javascript.js"></script>
+  </body>
+</html>
